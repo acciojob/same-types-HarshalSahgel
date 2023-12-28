@@ -4,7 +4,7 @@ function isSameType(value1, value2) {
   }
 
   // Check if the types are the same
-  return typeof value1 === typeof value2;
+  return typeof value1 === typeof value2 && !isNaN(value1) && !isNaN(value2) ;
 }
 
 // do not change the code below.
